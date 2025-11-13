@@ -1,0 +1,23 @@
+.card{
+    width: 250px;
+    height: 400;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 20px #00000082;
+    gap: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.card img{
+    width: 100px;
+    height: auto;
+}
+
+.card p{
+    text-align: center;
+}
